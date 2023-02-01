@@ -10,14 +10,10 @@
         <module name="account-service" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="service-parent2" target="11" />
-      <module name="service-parentt" target="11" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="account-service" options="" />
+      <module name="account-service" options="-parameters" />
       <module name="service-parent" options="" />
     </option>
   </component>
